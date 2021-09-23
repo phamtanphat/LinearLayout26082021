@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    tools:context=".MainActivity">
+
+<!--    ctrl + space : gợi ý code-->
+    <TextView
+        android:layout_weight="1"
+        android:background="#C8C196"
+        android:text="View 1"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:layout_weight="4"
+        android:background="#8A81BF"
+        android:text="View 2"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="15"
+        android:background="#85D5B8"
+        android:text="View 3"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+    
+</LinearLayout>
+
+
